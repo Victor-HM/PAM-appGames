@@ -6,11 +6,11 @@ export default function Botao({logo,texto,cor,logo2,texto2,cor2}){
 
     return(
         <View style={estilo.containerBotoes1}>
-            <TouchableOpacity style={[estilo.botoes ,{backgroudColor:cor}]}>
+            <TouchableOpacity style={[estilo.botoes ,{backgroundColor: cor}]}>
                 <Ionicons name={logo} size={20} color="black" style={{marginRight:10}}/>
                 <Text style={estilo.textoBotao} > {texto} </Text>
             </TouchableOpacity>
-            <TouchableOpacity style={[estilo.botoes ,{backgroudColor:cor2}]}>
+            <TouchableOpacity style={[estilo.botoes ,{backgroundColor: cor2}]}>
                 <Ionicons name={logo2} size={20} color="black" style={{marginRight:10}}/>
                 <Text style={estilo.textoBotao} > {texto2} </Text>
             </TouchableOpacity>
@@ -27,7 +27,7 @@ const estilo = StyleSheet.create({
     },
 
     textoBotao:{
-        color:'#00BFFF',
+        color:'white',
         fontWeight:'bold'
     },
 
@@ -37,6 +37,7 @@ const estilo = StyleSheet.create({
         width:'45%',
         alignItems:'center',
         justifyContent:'flex-start',
+        borderRadius: 5,
         
         fontSize:12,
         color:'#00BFFF',
