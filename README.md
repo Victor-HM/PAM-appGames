@@ -29,17 +29,6 @@ Fazer um app de loja de jogos
     </td>
   </tr>
 </table>
-<table>
-  <tr>
-    <td align="center">
-      <a href="http://github.com/GustavoSoaresRodrigues2">
-        <img src="" width="100px;" alt="Foto do Gustavo no GitHub"/><br>
-        <sub>
-          <b>Gustavo</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
 </table>
 
 ## :dart: Status do projeto
